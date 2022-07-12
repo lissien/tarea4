@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="tarea4.MainPage">
+
+    <StackLayout>
+
+        <Image Source="http://fundahrse.org/wp-content/uploads/2015/12/UTH-copia-edit.jpg"
+                   HeightRequest="200"
+                   WidthRequest="600"
+                   HorizontalOptions="CenterAndExpand"
+                   Aspect="Fill"/>
+        <Button x:Name="btnAddVideo" Text="CREAR  VIDEO" TextColor="White" Clicked="btnAddVideo_Clicked" BackgroundColor="Black"></Button>
+        <Button x:Name="btnViewVideos" Text="VER LISTA DE VIDEOS" TextColor="White" Clicked="btnViewVideos_Clicked" BackgroundColor="Black"></Button>
+        
+    </StackLayout>
+
+</ContentPage>
